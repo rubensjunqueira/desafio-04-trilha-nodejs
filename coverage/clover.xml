@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619531938030" clover="3.2.0">
-  <project timestamp="1619531938031" name="All files">
-    <metrics statements="442" coveredstatements="286" conditionals="67" coveredconditionals="56" methods="33" coveredmethods="22" elements="542" coveredelements="364" complexity="0" loc="442" ncloc="442" packages="6" files="23" classes="23"/>
+<coverage generated="1619537067003" clover="3.2.0">
+  <project timestamp="1619537067003" name="All files">
+    <metrics statements="456" coveredstatements="299" conditionals="75" coveredconditionals="63" methods="33" coveredmethods="22" elements="564" coveredelements="384" complexity="0" loc="456" ncloc="456" packages="6" files="23" classes="23"/>
     <package name="statements.useCases.createStatement">
-      <metrics statements="97" coveredstatements="57" conditionals="15" coveredconditionals="13" methods="7" coveredmethods="5"/>
+      <metrics statements="111" coveredstatements="70" conditionals="22" coveredconditionals="19" methods="7" coveredmethods="5"/>
       <file name="CreateStatementController.ts" path="/home/rubens/Documentos/dev/desafios-ignite/desafio-04-trilha-nodejs/src/modules/statements/useCases/createStatement/CreateStatementController.ts">
         <metrics statements="30" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -44,19 +44,19 @@
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
       <file name="CreateStatementUseCase.ts" path="/home/rubens/Documentos/dev/desafios-ignite/desafio-04-trilha-nodejs/src/modules/statements/useCases/createStatement/CreateStatementUseCase.ts">
-        <metrics statements="42" coveredstatements="42" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="55" coveredstatements="55" conditionals="15" coveredconditionals="14" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -67,41 +67,54 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
-        <line num="24" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="30" count="3" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="33" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="34" count="1" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="35" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="40" count="3" type="stmt"/>
-        <line num="41" count="3" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="45" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
       </file>
       <file name="ICreateStatementDTO.ts" path="/home/rubens/Documentos/dev/desafios-ignite/desafio-04-trilha-nodejs/src/modules/statements/useCases/createStatement/ICreateStatementDTO.ts">
-        <metrics statements="10" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -112,10 +125,11 @@
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
       </file>
     </package>
     <package name="statements.useCases.getBalance">
-      <metrics statements="71" coveredstatements="48" conditionals="9" coveredconditionals="7" methods="5" coveredmethods="3"/>
+      <metrics statements="71" coveredstatements="48" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="3"/>
       <file name="GetBalanceController.ts" path="/home/rubens/Documentos/dev/desafios-ignite/desafio-04-trilha-nodejs/src/modules/statements/useCases/getBalance/GetBalanceController.ts">
         <metrics statements="19" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -142,14 +156,14 @@
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
       <file name="GetBalanceUseCase.ts" path="/home/rubens/Documentos/dev/desafios-ignite/desafio-04-trilha-nodejs/src/modules/statements/useCases/getBalance/GetBalanceUseCase.ts">
-        <metrics statements="41" coveredstatements="41" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -167,30 +181,30 @@
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
       </file>
       <file name="IGetBalanceDTO.ts" path="/home/rubens/Documentos/dev/desafios-ignite/desafio-04-trilha-nodejs/src/modules/statements/useCases/getBalance/IGetBalanceDTO.ts">
         <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
